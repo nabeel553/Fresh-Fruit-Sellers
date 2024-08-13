@@ -1,0 +1,46 @@
+.topnav a {
+  text-decoration: none;
+  font-family: anton;
+  color: black;
+  display: flex;
+  float: right;
+  margin: 20px;
+  font-size: 25px;
+  margin-right: 8px;
+  padding-right: 15px;
+}
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+p{
+  text-align: right;
+}
+img{
+  border-radius: 15px;
+}
+p{
+  /* Single animation */
+animation-name: slide;
+animation-name: test_05;
+animation-name: -specific;
+animation-name: sliding-vertically;
+}
+table,th,td{
+  border: solid; color: black; text-align: center;
+}
+.topnav a:hover{
+  background-color: purple;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+}
+.topnav a.active{
+  background-color: red;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+a.submit{
+  text-decoration: none; font-family: anton; background-color: blue; color: white; border-radius: 15px; padding: 7px 40px; margin: 130px;
+}
